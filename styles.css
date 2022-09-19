@@ -28,13 +28,9 @@ body {
     padding: 45px 0 0 0;
 }
 
-.image {
-    width: 600px;
-    height: 450px;
-    background: url("../best-woomans/images/image6.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+.slide {
+    width:100%;
+    height: 100%;
     margin: 0 30px;
 }
 
@@ -44,9 +40,11 @@ body {
 }
 
 @media (max-width:650px) {
-        .image {
+        .slide {
             margin: 0;
-            align-self: stretch;
+            /* width: 100%;
+            height: 400px;
+            align-self: stretch; */
             order: 1;
         }
 
