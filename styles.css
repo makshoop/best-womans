@@ -29,22 +29,19 @@ body {
 }
 
 .slide {
-    width:100%;
+    width: 100%;
     height: 100%;
-    margin: 0 30px;
 }
 
 .button {
     font-size: 80px;
     color: var(--button-color);
+    margin: 20px;
 }
 
 @media (max-width:650px) {
         .slide {
             margin: 0;
-            /* width: 100%;
-            height: 400px;
-            align-self: stretch; */
             order: 1;
         }
 
